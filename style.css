@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: #e5e7eb;
+  line-height: 1.6;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero span {
+  color: #38bdf8;
+}
+
+.hero p {
+  margin: 10px 0 20px;
+  font-size: 1.2rem;
+}
+
+.btn {
+  text-decoration: none;
+  background: #38bdf8;
+  color: #020617;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-weight: 600;
+}
+
+/* SECTIONS */
+section {
+  padding: 80px 10%;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* SKILLS */
+.skill-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+.skill-box div {
+  background: #020617;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* PROJECTS */
+.project {
+  background: #020617;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+/* CONTACT */
+.contact a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #020617;
+}
